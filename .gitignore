@@ -1,0 +1,38 @@
+# Secrets and local deployment configuration
+.env
+.env.*
+!.env.example
+config.py
+zappa_settings.json
+credentials.json
+client_secret*.json
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+
+# Generated/local data artifacts
+*.txt
+*.xlsx
+*.csv
+
+# Keep public templates and documentation trackable
+!templates.yaml

@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "app_function": "sfmuni.app",
+    "aws_region": "YOUR_AWS_REGION",
+    "profile_name": "YOUR_LOCAL_AWS_PROFILE",
+    "s3_bucket": "YOUR_DEPLOYMENT_BUCKET",
+    "environment_variables": {
+      "GOOGLE_MAPS_API_KEY": "YOUR_GOOGLE_MAPS_API_KEY",
+      "IFTTT_WEBHOOK_KEY": "YOUR_IFTTT_WEBHOOK_KEY"
+    }
+  }
+}
